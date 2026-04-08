@@ -13,6 +13,9 @@ while True:
 st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style', unsafe_allow_html=True)
 
+st.title("My First Streamlit App")
+st.write("App is Running successfully 🛩️")
+
 col1,col2 = st.columns([0.1,0.9])
 html_title = """
     <style>
